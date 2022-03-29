@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yuxiang Peng"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Yuxiang Peng"
 description              : &description "Graduate Student at University of Maryland, College Park"
