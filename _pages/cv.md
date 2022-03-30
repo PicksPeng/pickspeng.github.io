@@ -25,4 +25,4 @@ Selected Honors and Awards
 
 * Common Objects in Context (COCO), Keypoints Challenge Track, *First Place*, 2017.
 
-* National Olympiad in Informatics, *Gold Medal* as D-rank, 2014.
+* National Olympiad in Informatics (NOI), *Gold Medal* as D-rank, 2014.
