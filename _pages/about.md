@@ -25,9 +25,9 @@ In 2019, I received a Bachelor of Engineering in [Institute for Interdiscplinary
 	* Manuscript, 2022.
 	
 * **Differentiable Analog Quantum Computing for Optimization and Control**
-  * Jiaqi Leng\*, **Yuxiang Peng**\*, Yi-Ling Qiao*, Ming Lin, Xiaodi Wu.
+	* Jiaqi Leng\*, **Yuxiang Peng**\*, Yi-Ling Qiao*, Ming Lin, Xiaodi Wu
 	* Manuscript, 2022.
 
 * **Algebraic Reasoning of Quantum Programs via Non-Idempotent Kleene Algebra** [(link)](https://arxiv.org/abs/2110.07018)
-  * **Yuxiang Peng**, Mingsheng Ying, Xiaodi Wu
+	* **Yuxiang Peng**, Mingsheng Ying, Xiaodi Wu
 	* To appear in *the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)*.
