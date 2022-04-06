@@ -29,7 +29,7 @@ author_profile: true
 	* **Yuxiang Peng**, Mingsheng Ying, Xiaodi Wu
 	* To appear in *the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)*.
 
-* **Experimental Realization of Device-Independent Quantum Randomness Expansion**
+* **Experimental Realization of Device-Independent Quantum Randomness Expansion** [(link)](https://arxiv.org/abs/1902.07529)
 	* Ming-Han Li, Xingjian Zhang, Wen-Zhao Liu, Si-Ran Zhao, Bing Bai, Yang Liu, Qi Zhao, **Yuxiang Peng**, Jun Zhang, Yanbao Zhang, William J. Munro, Xiongfeng Ma, Qiang Zhang, Jingyun Fan, Jian-Wei Pan
 	* In *Physical Review Letters 126.5 (2021): 050503*.
 
