@@ -21,7 +21,7 @@ In 2019, I received a Bachelor of Engineering in [Institute for Interdiscplinary
 \*: equal contribution
 
 * **Differentiable Analog Quantum Computing for Optimization and Control** 
-	* Jiaqi Leng\*, _Yuxiang Peng_\*, Yi-Ling Qiao*, Ming Lin, Xiaodi Wu
+	* Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao*, Ming Lin, Xiaodi Wu
 	* Manuscript, 2022.
 
 * **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm** [(link)](https://arxiv.org/abs/2204.07112)
