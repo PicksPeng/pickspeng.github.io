@@ -13,7 +13,7 @@ author_profile: true
 	* Jiaqi Leng\*, _Yuxiang Peng_\*, Yi-Ling Qiao*, Ming Lin, Xiaodi Wu
 	* Manuscript, 2022.
 
-* **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm**
+* **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm** [(link)](https://arxiv.org/abs/2204.07112)
 	* _Yuxiang Peng_, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand, Michael Hicks, Xiaodi Wu
 	* Manuscript, 2022.
 

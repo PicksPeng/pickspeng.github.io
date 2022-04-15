@@ -20,14 +20,14 @@ In 2019, I received a Bachelor of Engineering in [Institute for Interdiscplinary
 
 \*: equal contribution
 
-* **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm**
-	* _Yuxiang Peng_, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand, Michael Hicks, Xiaodi Wu
-	* Manuscript, 2022.
-	
-* **Differentiable Analog Quantum Computing for Optimization and Control**
+* **Differentiable Analog Quantum Computing for Optimization and Control** 
 	* Jiaqi Leng\*, _Yuxiang Peng_\*, Yi-Ling Qiao*, Ming Lin, Xiaodi Wu
 	* Manuscript, 2022.
 
+* **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm** [(link)](https://arxiv.org/abs/2204.07112)
+	* _Yuxiang Peng_, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand, Michael Hicks, Xiaodi Wu
+	* Manuscript, 2022.
+	
 * **Algebraic Reasoning of Quantum Programs via Non-Idempotent Kleene Algebra** [(link)](https://arxiv.org/abs/2110.07018)
 	* _Yuxiang Peng_, Mingsheng Ying, Xiaodi Wu
 	* To appear in *the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)*.
