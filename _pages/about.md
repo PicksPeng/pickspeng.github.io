@@ -28,7 +28,7 @@ In 2019, I received a Bachelor of Engineering in the [Institute for Interdiscipl
 	* <u>Yuxiang Peng</u>, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand, Michael Hicks, Xiaodi Wu
 	* Manuscript, 2022.
 	
-* **Algebraic Reasoning of Quantum Programs via Non-Idempotent Kleene Algebra** [(link)](https://arxiv.org/abs/2110.07018)
+* **Algebraic Reasoning of Quantum Programs via Non-idempotent Kleene Algebra** [(link)](https://arxiv.org/abs/2110.07018)
 	* <u>Yuxiang Peng</u>, Mingsheng Ying, Xiaodi Wu
 	* To appear in *the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)*.
 
