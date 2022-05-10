@@ -12,9 +12,9 @@ Welcome to Yuxiang Peng's homepage.
 
 ## **Bio**
 
-I'm a graduate student at [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park. I'm also affiliated to [Joint Center for Quantum Information and Computer Science](https://quics.umd.edu/). I'm currently advised by Prof. [Xiaodi Wu](https://www.cs.umd.edu/~xwu/). My researches focus on theoretical and practical explorations of high-assurance software toolchains for quantum computing. I'm also broadly interested in programming languages, quantum computing and physics.
+I'm a graduate student at [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park. I'm also affiliated to the [Joint Center for Quantum Information and Computer Science](https://quics.umd.edu/). I'm currently advised by Prof. [Xiaodi Wu](https://www.cs.umd.edu/~xwu/). My research focuses on theoretical and practical explorations of high-assurance software toolchains for quantum computing. I'm also broadly interested in programming languages, quantum computing and physics.
 
-In 2019, I received a Bachelor of Engineering in [Institute for Interdiscplinary Information Science](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, and a Bachelor of Science (double major) in [Department of Mathematical Science](https://www.math.tsinghua.edu.cn/), Tsinghua University.
+In 2019, I received a Bachelor of Engineering in the [Institute for Interdisciplinary Information Science](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, and a Bachelor of Science (double major) in the [Department of Mathematical Science](https://www.math.tsinghua.edu.cn/), Tsinghua University.
 
 ## **Selected Publications**
 
