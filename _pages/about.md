@@ -30,6 +30,6 @@ In 2019, I received a Bachelor of Engineering in the [Institute for Interdiscipl
 	
 * **Algebraic Reasoning of Quantum Programs via Non-idempotent Kleene Algebra** [(link)](https://arxiv.org/abs/2110.07018)
 	* <u>Yuxiang Peng</u>, Mingsheng Ying, Xiaodi Wu
-	* To appear in *the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)*.
+	* In *the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)*.
 
 {% seo %}
