@@ -19,7 +19,7 @@ author_profile: true
 
 * **Verified Compilation of Quantum Oracles** [(link)](https://arxiv.org/abs/2112.06700)
 	* Liyi Li, Finnegan Voichick, Kesha Hietala, <u>Yuxiang Peng</u>, Xiaodi Wu, Michael Hicks
-	* Manuscript, 2021. 
+	* To appear in *Object-Oriented Programming, Systems, Languages & Applications (OOPSLA), 2022*. 
 
 * **Automating NISQ Application Design with Meta Quantum Circuits with Constraints (MQCC)**
 	* Haowei Deng, <u>Yuxiang Peng</u>, Micheal Hicks, Xiaodi Wu
@@ -39,4 +39,4 @@ author_profile: true
 
 * **Cascaded Pyramid Network for Multi-Person Pose Estimation** [(link)](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Cascaded_Pyramid_Network_CVPR_2018_paper.pdf)
 	* Yilun Chen\*, Zhicheng Wang\*, <u>Yuxiang Peng</u>, Zhiqiang Zhang, Gang Yu, Jian Sun
-	* In *Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR). 2018*.
+	* In *Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR), 2018*.
