@@ -27,7 +27,7 @@ author_profile: true
 
 * **Algebraic Reasoning of Quantum Programs via Non-idempotent Kleene Algebra** [(link)](https://arxiv.org/abs/2110.07018)
 	* <u>Yuxiang Peng</u>, Mingsheng Ying, Xiaodi Wu
-	* In *the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)*.
+	* In *Proceedings of the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)*.
 
 * **Experimental Realization of Device-Independent Quantum Randomness Expansion** [(link)](https://arxiv.org/abs/1902.07529)
 	* Ming-Han Li, Xingjian Zhang, Wen-Zhao Liu, Si-Ran Zhao, Bing Bai, Yang Liu, Qi Zhao, <u>Yuxiang Peng</u>, Jun Zhang, Yanbao Zhang, William J. Munro, Xiongfeng Ma, Qiang Zhang, Jingyun Fan, Jian-Wei Pan
