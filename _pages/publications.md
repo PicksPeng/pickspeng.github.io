@@ -9,6 +9,10 @@ author_profile: true
 
 \*: equal contribution
 
+* **Syntax-guided Synthesis of Quantum Unitary Programs**
+	* Haowei Deng, Runzhou Tao, <u>Yuxiang Peng</u>, Xiaodi Wu
+	* Manuscript, 2022.
+
 * **Differentiable Analog Quantum Computing for Optimization and Control**
 	* Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao*, Ming Lin, Xiaodi Wu
 	* Manuscript, 2022.
