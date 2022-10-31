@@ -13,9 +13,9 @@ author_profile: true
 	* Haowei Deng, Runzhou Tao, <u>Yuxiang Peng</u>, Xiaodi Wu
 	* Manuscript, 2022.
 
-* **Differentiable Analog Quantum Computing for Optimization and Control**
+* **Differentiable Analog Quantum Computing for Optimization and Control** [(link)](https://arxiv.org/abs/2210.15812)
 	* Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao*, Ming Lin, Xiaodi Wu
-	* To appear in *the 36th Conference on Neural Information Processing Systems (NeurIPS 2022)*.
+	* In *the 36th Conference on Neural Information Processing Systems (NeurIPS 2022)*.
 
 * **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm** [(link)](https://arxiv.org/abs/2204.07112)
 	* <u>Yuxiang Peng</u>, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand, Michael Hicks, Xiaodi Wu
@@ -23,7 +23,7 @@ author_profile: true
 
 * **Verified Compilation of Quantum Oracles** [(link)](https://arxiv.org/abs/2112.06700)
 	* Liyi Li, Finnegan Voichick, Kesha Hietala, <u>Yuxiang Peng</u>, Xiaodi Wu, Michael Hicks
-	* To appear in *Object-Oriented Programming, Systems, Languages & Applications (OOPSLA), 2022*. 
+	* In *Object-Oriented Programming, Systems, Languages & Applications (OOPSLA), 2022*. 
 
 * **Automating NISQ Application Design with Meta Quantum Circuits with Constraints (MQCC)**
 	* Haowei Deng, <u>Yuxiang Peng</u>, Micheal Hicks, Xiaodi Wu
