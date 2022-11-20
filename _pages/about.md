@@ -20,8 +20,12 @@ In 2019, I received a Bachelor of Engineering in the [Institute for Interdiscipl
 
 \*: equal contribution
 
+* **SimuQ: A Domain-Specific Language For Quantum Simulation With Analog Compilation**
+  * <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
+	* Manuscript, 2022.
+
 * **Differentiable Analog Quantum Computing for Optimization and Control** [(link)](https://arxiv.org/abs/2210.15812)
-	* Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao*, Ming Lin, Xiaodi Wu
+	* Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao\*, Ming Lin, Xiaodi Wu
 	* In *the 36th Conference on Neural Information Processing Systems (NeurIPS 2022)*.
 
 * **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm** [(link)](https://arxiv.org/abs/2204.07112)
