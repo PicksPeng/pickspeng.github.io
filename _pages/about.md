@@ -22,7 +22,7 @@ In 2019, I received a Bachelor of Engineering in the [Institute for Interdiscipl
 
 * **SimuQ: A Domain-Specific Language For Quantum Simulation With Analog Compilation**
   * <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
-	* Manuscript, 2022.
+  * Manuscript, 2022.
 
 * **Differentiable Analog Quantum Computing for Optimization and Control** [(link)](https://arxiv.org/abs/2210.15812)
 	* Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao\*, Ming Lin, Xiaodi Wu
