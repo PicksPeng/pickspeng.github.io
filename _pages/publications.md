@@ -10,8 +10,8 @@ author_profile: true
 \*: equal contribution
 
 * **SimuQ: A Domain-Specific Language For Quantum Simulation With Analog Compilation**
-  * <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
-  * Manuscript, 2022.
+	* <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
+	* Manuscript, 2022.
 
 * **Syntax-guided Synthesis of Quantum Unitary Programs**
 	* Haowei Deng, Runzhou Tao, <u>Yuxiang Peng</u>, Xiaodi Wu
