@@ -31,7 +31,7 @@ author_profile: true
 
 * **Automating NISQ Application Design with Meta Quantum Circuits with Constraints (MQCC)**
 	* Haowei Deng, <u>Yuxiang Peng</u>, Micheal Hicks, Xiaodi Wu
-	* Manuscript, 2021.
+	* To appear in *ACM Transactions on Quantum Computing (TQC)*.
 
 * **Algebraic Reasoning of Quantum Programs via Non-idempotent Kleene Algebra** [(link)](https://arxiv.org/abs/2110.07018)
 	* <u>Yuxiang Peng</u>, Mingsheng Ying, Xiaodi Wu
