@@ -29,9 +29,9 @@ author_profile: true
 	* Liyi Li, Finnegan Voichick, Kesha Hietala, <u>Yuxiang Peng</u>, Xiaodi Wu, Michael Hicks
 	* In *Object-Oriented Programming, Systems, Languages & Applications (OOPSLA), 2022*. 
 
-* **Automating NISQ Application Design with Meta Quantum Circuits with Constraints (MQCC)**
+* **Automating NISQ Application Design with Meta Quantum Circuits with Constraints (MQCC)** [(link)](https://dl.acm.org/doi/10.1145/3579369)
 	* Haowei Deng, <u>Yuxiang Peng</u>, Micheal Hicks, Xiaodi Wu
-	* To appear in *ACM Transactions on Quantum Computing (TQC)*.
+	* In *ACM Transactions on Quantum Computing (TQC), 2023*.
 
 * **Algebraic Reasoning of Quantum Programs via Non-idempotent Kleene Algebra** [(link)](https://arxiv.org/abs/2110.07018)
 	* <u>Yuxiang Peng</u>, Mingsheng Ying, Xiaodi Wu
