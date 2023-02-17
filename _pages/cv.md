@@ -13,7 +13,7 @@ Education
 ======
 * Ph.D in progress, [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-now
 
-* Master of Sciecne, [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-2022
+* Master of Science, [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-2022
 
 * Bachelor of Engineering, [Institute for Interdiscplinary Information Science](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, 2015-2019
 
