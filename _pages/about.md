@@ -12,15 +12,15 @@ Welcome to Yuxiang Peng's homepage.
 
 ## **Bio**
 
-I'm a graduate student at the [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park. I'm also affiliated to the [Joint Center for Quantum Information and Computer Science](https://quics.umd.edu/). I'm currently advised by Prof. [Xiaodi Wu](https://www.cs.umd.edu/~xwu/). My research focuses on theoretical and practical explorations of high-assurance software toolchains for quantum computing. I'm also broadly interested in programming languages, quantum computing and physics.
+I'm a graduate student at the [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park. I'm also affiliated with the [Joint Center for Quantum Information and Computer Science](https://quics.umd.edu/). I'm currently advised by Prof. [Xiaodi Wu](https://www.cs.umd.edu/~xwu/). My research focuses on theoretical and practical explorations of high-assurance software toolchains for quantum computing. I'm also broadly interested in programming languages, quantum computing and physics.
 
-In 2019, I received a Bachelor of Engineering in the [Institute for Interdisciplinary Information Science](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, and a Bachelor of Science (double major) in the [Department of Mathematical Science](https://www.math.tsinghua.edu.cn/), Tsinghua University.
+In 2019, I received a Bachelor of Engineering from the [Institute for Interdisciplinary Information Science](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, and a Bachelor of Science (double major) from the [Department of Mathematical Science](https://www.math.tsinghua.edu.cn/), Tsinghua University. In 2022, I received a Master of Science from the [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park.
 
 ## **Selected Publications**
 
 \*: equal contribution
 
-* **SimuQ: A Domain-Specific Language For Quantum Simulation With Analog Compilation**
+* **SimuQ: A Domain-Specific Language For Quantum Simulation With Analog Compilation** [(link)](https://arxiv.org/abs/2303.02775)
 	* <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
 	* Manuscript, 2022.
 
