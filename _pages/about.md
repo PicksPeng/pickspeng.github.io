@@ -30,7 +30,7 @@ In 2019, I received a Bachelor of Engineering from the [Institute for Interdisci
 
 * **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm** [(paper)](https://www.pnas.org/doi/10.1073/pnas.2218775120) [(code)](https://github.com/inQWIRE/SQIR/tree/main/examples/shor)
 	* <u>Yuxiang Peng</u>, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand, Michael Hicks, Xiaodi Wu
-	* In the Proceedings of the National Academy of Sciences (PNAS) 120 (21), e2218775120, 2023.
+	* In *the Proceedings of the National Academy of Sciences (PNAS) 120 (21)*, 2023.
 	
 * **Algebraic Reasoning of Quantum Programs via Non-idempotent Kleene Algebra** [(paper)](https://arxiv.org/abs/2110.07018)
 	* <u>Yuxiang Peng</u>, Mingsheng Ying, Xiaodi Wu
