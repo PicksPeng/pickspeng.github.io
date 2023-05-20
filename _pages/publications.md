@@ -23,7 +23,7 @@ author_profile: true
 
 * **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm** [(paper)](https://www.pnas.org/doi/10.1073/pnas.2218775120) [(code)](https://github.com/inQWIRE/SQIR/tree/main/examples/shor)
 	* <u>Yuxiang Peng</u>, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand, Michael Hicks, Xiaodi Wu
-	* In *the Proceedings of the National Academy of Sciences (PNAS) 120 (21)*, 2023.
+	* In *the Proceedings of the National Academy of Sciences (PNAS) 120 (21) e2218775120, 2023*.
 
 * **Verified Compilation of Quantum Oracles** [(paper)](https://arxiv.org/abs/2112.06700) [(code)](https://github.com/inQWIRE/VQO)
 	* Liyi Li, Finnegan Voichick, Kesha Hietala, <u>Yuxiang Peng</u>, Xiaodi Wu, Michael Hicks
