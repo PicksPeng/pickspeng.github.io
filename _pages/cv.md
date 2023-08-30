@@ -7,11 +7,12 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Resume](https://pickspeng.github.io/files/CV.pdf) (updated in 07/2023)
 
 Education
 ======
-* Ph.D in progress, [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-now
+* Ph.D. in progress, [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-now
+** Now a Ph.D. candidate.
 
 * Master of Science, [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-2022
 

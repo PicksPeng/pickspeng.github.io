@@ -9,7 +9,7 @@ author_profile: true
 
 \*: equal contribution
 
-* **SimuQ: A Domain-Specific Language For Quantum Simulation With Analog Compilation** [(paper)](https://arxiv.org/abs/2303.02775) [(website)](https://pickspeng.github.io/SimuQ) [(code)](https://github.com/PicksPeng/SimuQ)
+* **SimuQ: A Domain-Specific Language for Quantum Simulation with Analog Compilation** [(paper)](https://arxiv.org/abs/2303.02775) [(website)](https://pickspeng.github.io/SimuQ) [(code)](https://github.com/PicksPeng/SimuQ)
 	* <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
 	* Manuscript, 2022.
 
