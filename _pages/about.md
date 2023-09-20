@@ -10,6 +10,8 @@ redirect_from:
 
 Welcome to Yuxiang Peng's homepage.
 
+<span style="color: red;"> I'm on the job market in 2023! Please contact me if interested! </span>
+
 ## **Bio**
 
 I'm a graduate student at the [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park. I'm also affiliated with the [Joint Center for Quantum Information and Computer Science](https://quics.umd.edu/). I'm advised by Prof. [Xiaodi Wu](https://www.cs.umd.edu/~xwu/). My research focuses on theoretical and practical explorations of high-assurance software toolchains for quantum computing. My research goal is to help common users harness the power of modern quantum computers in various domain prblems. I'm also broadly interested in programming languages, quantum computing and physics.
