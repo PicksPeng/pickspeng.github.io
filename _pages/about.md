@@ -22,9 +22,9 @@ In 2019, I received a Bachelor of Engineering from the [Institute for Interdisci
 
 \*: equal contribution
 
-* **SimuQ: A Domain-Specific Language for Quantum Simulation with Analog Compilation** [(paper)](https://arxiv.org/abs/2303.02775) [(website)](https://pickspeng.github.io/SimuQ) [(code)](https://github.com/PicksPeng/SimuQ)
+* **SimuQ: A Framework for Programming Quantum Hamiltonian Simulation with Analog Compilation** [(paper)](https://arxiv.org/abs/2303.02775) [(website)](https://pickspeng.github.io/SimuQ) [(code)](https://github.com/PicksPeng/SimuQ)
 	* <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
-	* Manuscript, 2022.
+	* To appear in *the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2024)*.
 
 * **Differentiable Analog Quantum Computing for Optimization and Control** [(paper)](https://arxiv.org/abs/2210.15812) [(code)](https://github.com/YilingQiao/diffquantum)
 	* Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao\*, Ming Lin, Xiaodi Wu
