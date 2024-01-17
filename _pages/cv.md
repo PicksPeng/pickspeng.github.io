@@ -22,6 +22,10 @@ Education
 
 Selected Honors and Awards
 ======
+* Unitary Fund Microgrant, 2023.
+
+* University of Maryland Invention of the Year, *Finalist*, 2023.
+
 * ACM Student Research Competition of POPL, *Second Place* of Graduate Category, 2021.
 
 * Yao Award, *Bronze medel*, 2018.
@@ -29,3 +33,7 @@ Selected Honors and Awards
 * Common Objects in Context (COCO), Keypoints Challenge Track, *First Place*, 2017.
 
 * National Olympiad in Informatics (NOI), *Gold Medal* as D-class, 2014.
+
+Services
+======
+**Reviewer** for ACM Transactions on Quantum Computing, NeurIPS, ICLR, POPL, POPL Artifact Evaluation, PLDI, ICML.
