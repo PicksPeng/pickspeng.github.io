@@ -11,8 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in progress, [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-now
-	* Now a Ph.D. candidate.
+* Ph.D., [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-2024
 
 * Master of Science, [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-2022
 
