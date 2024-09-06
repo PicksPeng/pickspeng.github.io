@@ -22,7 +22,7 @@ In 2019, I received a Bachelor of Engineering from the [Institute for Interdisci
 
 \*: equal contribution
 
-* **QHDOPT: A Software for Nonlinear Optimization with Quantum Hamiltonian Decent** [(code)](https://github.com/jiaqileng/QHDOPT)
+* **QHDOPT: A Software for Nonlinear Optimization with Quantum Hamiltonian Decent** [(paper)](https://arxiv.org/abs/2409.03121) [(code)](https://github.com/jiaqileng/QHDOPT)
 	* Samuel Kushnir, Jiaqi Leng, <u>Yuxiang Peng</u>, Lei Fan, Xiaodi Wu
 	* Manuscript, 2024.
 

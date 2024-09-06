@@ -9,7 +9,7 @@ author_profile: true
 
 \*: equal contribution
 
-* **QHDOPT: A Software for Nonlinear Optimization with Quantum Hamiltonian Decent** [(code)](https://github.com/jiaqileng/QHDOPT)
+* **QHDOPT: A Software for Nonlinear Optimization with Quantum Hamiltonian Decent** [(paper)](https://arxiv.org/abs/2409.03121) [(code)](https://github.com/jiaqileng/QHDOPT)
 	* Samuel Kushnir, Jiaqi Leng, <u>Yuxiang Peng</u>, Lei Fan, Xiaodi Wu
 	* Manuscript, 2024.
 
