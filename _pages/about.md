@@ -24,7 +24,7 @@ In 2019, I received a Bachelor of Engineering from the [Institute for Interdisci
 
 * **QHDOPT: A Software for Nonlinear Optimization with Quantum Hamiltonian Decent** [(paper)](https://arxiv.org/abs/2409.03121) [(code)](https://github.com/jiaqileng/QHDOPT)
 	* Samuel Kushnir, Jiaqi Leng, <u>Yuxiang Peng</u>, Lei Fan, Xiaodi Wu
-	* Manuscript, 2024.
+	* To appear in *INFORMS Journal on Computing, 2024*.
 
 * **SimuQ: A Framework for Programming Quantum Hamiltonian Simulation with Analog Compilation** [(paper)](https://arxiv.org/abs/2303.02775) [(website)](https://pickspeng.github.io/SimuQ) [(code)](https://github.com/PicksPeng/SimuQ)
 	* <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu

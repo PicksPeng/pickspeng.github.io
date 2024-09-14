@@ -11,7 +11,7 @@ author_profile: true
 
 * **QHDOPT: A Software for Nonlinear Optimization with Quantum Hamiltonian Decent** [(paper)](https://arxiv.org/abs/2409.03121) [(code)](https://github.com/jiaqileng/QHDOPT)
 	* Samuel Kushnir, Jiaqi Leng, <u>Yuxiang Peng</u>, Lei Fan, Xiaodi Wu
-	* Manuscript, 2024.
+	* To appear in *INFORMS Journal on Computing, 2024*.
 
 * **Expanding Hardware-Efficiently Manipulable Hilbert Space via Hamiltonian Embedding** [(paper)](https://arxiv.org/abs/2401.08550) [(code)](https://github.com/jiaqileng/hamiltonian-embedding)
 	* Jiaqi Leng\*, Joseph Li\*, <u>Yuxiang Peng</u>, Xiaodi Wu
