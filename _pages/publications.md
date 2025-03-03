@@ -9,9 +9,13 @@ author_profile: true
 
 \*: equal contribution
 
+* **An Error Suppressing Encoding for Positional Disorder in Rydberg Atom Analog Quantum Simulation**
+	* Haohai Shi, <u>Yuxiang Peng</u>, Pei Zeng, Mao Lin, Alexey Gorshkov, Xiaodi Wu 
+	* Manuscript, 2025.
+
 * **QHDOPT: A Software for Nonlinear Optimization with Quantum Hamiltonian Decent** [(paper)](https://arxiv.org/abs/2409.03121) [(code)](https://github.com/jiaqileng/QHDOPT)
 	* Samuel Kushnir, Jiaqi Leng, <u>Yuxiang Peng</u>, Lei Fan, Xiaodi Wu
-	* To appear in *INFORMS Journal on Computing, 2024*.
+	* In *INFORMS Journal on Computing, 37(1): 107-124, 2025*.
 
 * **Expanding Hardware-Efficiently Manipulable Hilbert Space via Hamiltonian Embedding** [(paper)](https://arxiv.org/abs/2401.08550) [(code)](https://github.com/jiaqileng/hamiltonian-embedding)
 	* Jiaqi Leng\*, Joseph Li\*, <u>Yuxiang Peng</u>, Xiaodi Wu
