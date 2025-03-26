@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yuxiang Peng @ UMD"
+title                    : "Yuxiang Peng @ Purdue University"
 title_separator          : "-"
 name                     : &name "Yuxiang Peng"
-description              : &description "Ph.D. from University of Maryland, College Park"
+description              : &description "Incoming Assistant Professor at Purdue University"
 url                      : https://pickspeng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "PicksPeng/pickspeng.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yuxiang Peng"
   avatar           : "pic.jpg"
-  bio              : "Graduate Student at University of Maryland, College Park"
-  location         : "MD, USA"
+  bio              : "Incoming Assistant Professor at Purdue University"
+  location         : "IN, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=NOPPvk0AAAAJ"
-  email            : ypeng15@umd.edu
+  email            : yxpeng@purdue.edu
   researchgate     : 
   uri              :
   bitbucket        :

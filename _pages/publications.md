@@ -9,8 +9,12 @@ author_profile: true
 
 \*: equal contribution
 
-* **An Error Suppressing Encoding for Positional Disorder in Rydberg Atom Analog Quantum Simulation**
+* **Superatom Encoding for Suppressing Positional Disorder in Rydberg-Atom Analog Quantum Simulation**
 	* Haohai Shi, <u>Yuxiang Peng</u>, Pei Zeng, Mao Lin, Alexey Gorshkov, Xiaodi Wu 
+	* Manuscript, 2025.
+
+* **Quantum Hamiltonian Descent for Non-smooth Optimization** [(paper)](https://arxiv.org/abs/2503.15878)
+	* Jiaqi Leng, Yufan Zheng, Zhiyuan Jia, Lei Fan, Chaoyue Zhao, <u>Yuxiang Peng</u>, Xiaodi Wu
 	* Manuscript, 2025.
 
 * **QHDOPT: A Software for Nonlinear Optimization with Quantum Hamiltonian Decent** [(paper)](https://arxiv.org/abs/2409.03121) [(code)](https://github.com/jiaqileng/QHDOPT)
