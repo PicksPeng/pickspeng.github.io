@@ -9,6 +9,10 @@ redirect_from:
 
 [Resume](https://pickspeng.github.io/files/CV.pdf) (updated in 09/2023)
 
+Work
+=====
+* Assistant Professor, [Department of Computer Science](https://www.cs.purdue.edu/), Purdue University, 2025-present
+
 Education
 ======
 * Ph.D., [Department of Computer Science](https://www.cs.umd.edu/), University of Maryland, College Park, 2019-2024
@@ -21,6 +25,9 @@ Education
 
 Selected Honors and Awards
 ======
+
+* Larry S. Davis Doctoral Dissertation Award, 2024
+
 * Unitary Fund Microgrant, 2023.
 
 * University of Maryland Invention of the Year, *Finalist*, 2023.

@@ -9,6 +9,10 @@ author_profile: true
 
 \*: equal contribution
 
+* **Quantum-Inspired Hamiltonian Descent for Mixed-Integer Quadratic Programming**
+	* Shreya Chaudhary, Jinglei Cheng, Samuel Kushnir, Jiaqi Leng, Pengyu Liu, <u>Yuxiang Peng</u>, Hanrui Wang, Xiaodi Wu
+	* Manuscript, 2025
+
 * **Superatom Encoding for Suppressing Positional Disorder in Rydberg-Atom Analog Quantum Simulation**
 	* Haohai Shi, <u>Yuxiang Peng</u>, Pei Zeng, Mao Lin, Alexey Gorshkov, Xiaodi Wu 
 	* Manuscript, 2025.
@@ -23,7 +27,7 @@ author_profile: true
 
 * **Expanding Hardware-Efficiently Manipulable Hilbert Space via Hamiltonian Embedding** [(paper)](https://arxiv.org/abs/2401.08550) [(code)](https://github.com/jiaqileng/hamiltonian-embedding)
 	* Jiaqi Leng\*, Joseph Li\*, <u>Yuxiang Peng</u>, Xiaodi Wu
-	* Manuscript, 2024.
+	* In *Quantum, 9:1857, 2025*.
 
 * **SimuQ: A Framework for Programming Quantum Hamiltonian Simulation with Analog Compilation** [(paper)](https://arxiv.org/abs/2303.02775) [(website)](https://pickspeng.github.io/SimuQ) [(code)](https://github.com/PicksPeng/SimuQ)
 	* <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
