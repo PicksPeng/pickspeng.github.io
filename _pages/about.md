@@ -12,7 +12,7 @@ Welcome to Yuxiang Peng's homepage.
 
 ## **Bio**
 
-I am an Assistant Professor at the Department of Computer Science at the Purdue University. My research focuses on theoretical and practical explorations of high-assurance software toolchains for quantum computing, including programming languages, compilers, systems, and architectures. My research goal is to help common users harness the power of modern quantum computers in various domain problems. Very recently, I am interested in building optimization solvers with emerging technologies. 
+I am an Assistant Professor at the Department of Computer Science at the Purdue University. My research focuses on theoretical and practical explorations of high-assurance software toolchains for quantum computing, including programming languages, compilers, and systems. My research goal is to help common users harness the power of modern quantum computers in various domain problems. Very recently, I am interested in building optimization solvers with emerging technologies. 
 
 I am actively looking for self-motivated students interested in my research directions. 
 
@@ -32,5 +32,9 @@ In 2019, I received a Bachelor of Engineering from the [Institute for Interdisci
 * **Differentiable Analog Quantum Computing for Optimization and Control** [(paper)](https://arxiv.org/abs/2210.15812) [(code)](https://github.com/YilingQiao/diffquantum)
 	* Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao\*, Ming Lin, Xiaodi Wu
 	* In *the 36th Conference on Neural Information Processing Systems (NeurIPS 2022)*.
+
+## **News**
+
+* [10/2025] An animation film that I participated in, [The Shyness of Trees](https://www.youtube.com/watch?v=aiQC-8E_7lE), has received the Student Academy Awards, bronze medel for animation. 
 
 {% seo %}
