@@ -12,10 +12,6 @@ author_profile: true
 * **Quantum-Inspired Hamiltonian Descent for Mixed-Integer Quadratic Programming**
 	* Shreya Chaudhary, Jinglei Cheng, Samuel Kushnir, Jiaqi Leng, Pengyu Liu, <u>Yuxiang Peng</u>, Hanrui Wang, Xiaodi Wu
 	* Manuscript, 2025
-<!-- 
-* **Superatom Encoding for Suppressing Positional Disorder in Rydberg-Atom Analog Quantum Simulation**
-	* Haohai Shi, <u>Yuxiang Peng</u>, Pei Zeng, Mao Lin, Alexey Gorshkov, Xiaodi Wu 
-	* Manuscript, 2025. -->
 
 * **Quantum Hamiltonian Descent for Non-smooth Optimization** [(paper)](https://arxiv.org/abs/2503.15878)
 	* Jiaqi Leng, Yufan Zheng, Zhiyuan Jia, Lei Fan, Chaoyue Zhao, <u>Yuxiang Peng</u>, Xiaodi Wu
