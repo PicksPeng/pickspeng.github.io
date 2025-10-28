@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yuxiang Peng @ Purdue University"
 title_separator          : "-"
 name                     : &name "Yuxiang Peng"
-description              : &description "Incoming Assistant Professor at Purdue University"
+description              : &description "Assistant Professor at Purdue University"
 url                      : https://pickspeng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "PicksPeng/pickspeng.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yuxiang Peng"
   avatar           : "pic.jpg"
-  bio              : "Incoming Assistant Professor at Purdue University"
+  bio              : "Assistant Professor at Purdue University"
   location         : "IN, USA"
   employer         :
   pubmed           : 
