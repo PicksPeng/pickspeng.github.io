@@ -33,6 +33,12 @@ In 2019, I received a Bachelor of Engineering from the [Institute for Interdisci
 	* Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao\*, Ming Lin, Xiaodi Wu
 	* In *the 36th Conference on Neural Information Processing Systems (NeurIPS 2022)*.
 
+## **Teaching**
+
+* [Spring 2026] [CS 59200 Quantum Computer Software Stacks](https://cs.purdue.edu/homes/yxpeng/QCSS/26/)
+
+* [Fall 2025] [CS 59300 Introduction to Quantum Computing](https://www.math.purdue.edu/~esampert/IQC/) (co-teach with [Eric Samperton](https://www.math.purdue.edu/~esampert/))
+
 ## **News**
 
 * [10/2025] An animation film that I participated in, [The Shyness of Trees](https://www.youtube.com/watch?v=aiQC-8E_7lE), has received the Student Academy Awards, bronze medel for animation. 
