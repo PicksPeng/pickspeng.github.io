@@ -12,7 +12,7 @@ Welcome to Yuxiang Peng's homepage.
 
 ## **Bio**
 
-I am an Assistant Professor at the Department of Computer Science at the Purdue University. My research focuses on theoretical and practical explorations of high-assurance software toolchains for quantum computing, including programming languages, compilers, and systems. My research goal is to advance the frontier of and help common users harness the power of modern quantum computers and other emerging computing instruments in various domain problems, such as optimization.
+I am an Assistant Professor in the Department of Computer Science at Purdue University. My research focuses on theoretical and practical explorations of high-assurance software toolchains for quantum computing, including programming languages, compilers, and systems. My research goal is to advance the frontier of and help common users harness the power of modern quantum computers and other emerging computing instruments in various domain problems, such as optimization.
 
 I am actively looking for self-motivated students interested in my research directions. 
 
@@ -21,17 +21,14 @@ In 2019, I received a Bachelor of Engineering from the [Institute for Interdisci
 
 ## **Selected Publications**
 
-* **SimuQ: A Framework for Programming Quantum Hamiltonian Simulation with Analog Compilation** [(paper)](https://arxiv.org/abs/2303.02775) [(website)](https://pickspeng.github.io/SimuQ) [(code)](https://github.com/PicksPeng/SimuQ)
-	* <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
-	* In *Proceedings of the ACM on Programming Languages, 8 (POPL), 2425-2455, 2024*.
-
-* **A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm** [(paper)](https://www.pnas.org/doi/10.1073/pnas.2218775120) [(code)](https://github.com/inQWIRE/SQIR/tree/main/examples/shor)
-	* <u>Yuxiang Peng</u>, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand, Michael Hicks, Xiaodi Wu
-	* In *the Proceedings of the National Academy of Sciences (PNAS) 120 (21) e2218775120, 2023*.
-
-* **Stateful Governance for Concurrent Agentic Systems** [(website)](https://masugate.github.io/) [(paper)](https://arxiv.org/abs/2608.02764) [(code)](https://github.com/masugate/masugate)
-	* <u>Yuxiang Peng</u>, Xiaodi Wu
-	* Manuscript, 2026
+{% assign featured_publications = site.data.publications | where: "featured", true | sort: "featured_order" %}
+<div class="publication-list">
+  {% for publication in featured_publications %}
+    {% if publication.show != false %}
+      {% include publication-item.html publication=publication %}
+    {% endif %}
+  {% endfor %}
+</div>
 
 ## **Advisees**
 
@@ -49,6 +46,6 @@ In 2019, I received a Bachelor of Engineering from the [Institute for Interdisci
 
 ## **News**
 
-* [10/2025] An animation film that I participated in, [The Shyness of Trees](https://www.youtube.com/watch?v=aiQC-8E_7lE), has received the Student Academy Awards, bronze medel for animation. 
+* [10/2025] An animation film that I participated in, [The Shyness of Trees](https://www.youtube.com/watch?v=aiQC-8E_7lE), received a Student Academy Award, bronze medal for animation.
 
 {% seo %}

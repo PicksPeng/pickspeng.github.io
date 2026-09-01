@@ -5,7 +5,8 @@ This repository contains the source for [pickspeng.github.io](https://pickspeng.
 ## Content
 
 - `_pages/about.md` — homepage, biography, teaching, and news
-- `_pages/publications.md` — publication list
+- `_pages/publications.md` — publication-page renderer
+- `_data/publications.yml` — publication metadata, links, and abstracts
 - `_pages/talks.md` — talks and presentations
 - `_pages/cv.md` — CV page
 - `files/` — downloadable CV, papers, and slides

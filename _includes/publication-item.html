@@ -1,0 +1,31 @@
+{% assign publication = include.publication %}
+{% if publication.abstract %}
+  {% assign disclosure_content = publication.abstract %}
+{% else %}
+  {% assign disclosure_content = "Abstract forthcoming." %}
+{% endif %}
+<article class="publication-item">
+  <details class="publication-disclosure">
+    <summary>
+      <strong class="publication-title">{{ publication.title }}</strong>
+      <span class="publication-toggle" aria-hidden="true">Abstract</span>
+    </summary>
+    <div class="publication-abstract">
+      <strong>Abstract.</strong>
+      <div class="publication-abstract__body">
+        {{ disclosure_content | markdownify }}
+      </div>
+    </div>
+  </details>
+
+  {% if publication.links %}
+    <div class="publication-links" aria-label="Links for {{ publication.title }}">
+      {% for link in publication.links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true">·</span>{% endunless %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="publication-authors">{{ publication.authors | markdownify }}</div>
+  <div class="publication-venue">{{ publication.venue | markdownify }}</div>
+</article>

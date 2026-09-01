@@ -1,0 +1,485 @@
+# Set `show: false` to hide an entry from the rendered page without deleting it.
+# Set `featured: true` to include an entry in the homepage selection.
+# Use `abstract: |-` for author-approved text. Blank lines within a block are
+# rendered as source-defined paragraph breaks. Entries without one show the fallback.
+
+- title: Analog Quantum Experiments Meet Automatic Differentiation - from Programs to Atoms
+  show: true
+  authors: >-
+    Yue Shi, Pengyu Liu, <u>Yuxiang Peng</u>
+  venue: Manuscript, 2026
+
+- title: Stateful Governance for Concurrent Agentic Systems
+  show: true
+  featured: true
+  featured_order: 3
+  abstract: |-
+    AI agents are moving from advisory interfaces into systems that execute
+    consequential operations: issuing refunds, reserving scarce inventory,
+    provisioning cloud resources, and initiating financial transfers. These
+    workflows require governance over effects, not only over model outputs. Existing
+    safeguards often decide whether an action is allowed from the information
+    available when the action is requested.
+    For stateful policies, that request-time view may be incomplete: budgets,
+    inventory, approval status, and risk signals can change before the effect occurs,
+    making an earlier authorization or approval stale.
+
+    This paper studies stateful governance for concurrent agentic systems. We
+    identify stale authorization as the core failure mode and define policy-state
+    serializability, a correctness condition requiring committed effects to be
+    explainable as authorized against the policy state immediately before they occur.
+    We present MasuGate, a runtime architecture that keeps policies as reviewable
+    programs while coordinating the state and effects needed to preserve their
+    decisions.
+    In experiments with a PostgreSQL-backed prototype of MasuGate, the system
+    prevents stale authorizations missed by baselines that pass policy state as
+    ordinary request context, preserves delayed approvals while unrelated work
+    proceeds, keeps policy evolution mostly in policy text rather than trusted
+    provider code, and avoids policy violations in a scripted, LLM-free procurement
+    workflow where agent-governance baselines produce stale authorizations over
+    shared budgets and inventory.
+    More broadly, MasuGate suggests a path for integrating stateful governance
+    boundaries into agent frameworks and provider-backed domains where agents act on
+    shared resources.
+  links:
+    - label: website
+      url: https://masugate.github.io/
+    - label: paper
+      url: https://arxiv.org/abs/2608.02764
+    - label: code
+      url: https://github.com/masugate/masugate
+  authors: >-
+    <u>Yuxiang Peng</u>, Xiaodi Wu
+  venue: Manuscript, 2026
+
+- title: Formal Guarantees of Reference-based Mathematical Statement Autoformalization Evaluation
+  show: false
+  authors: >-
+    Yi Yu, Yu-Hsuan Wu, Guang Lin, Yuhui Zhang, <u>Yuxiang Peng</u>
+  venue: Manuscript, 2026
+
+- title: A Pulse-Level DSL for Real-Time Quantum Control with Hardware Compilation and Emulation (Extended Abstract)
+  show: true
+  abstract: |-
+    Quantum computers are promising for solving classically intractable problems, but
+    their practical utility hinges on precise, flexible, and accessible programming
+    of quantum control systems. Despite several pulse-level languages for industrial
+    devices, a systematic and end-to-end programming toolchain for real-time quantum
+    control remains lacking. We introduce a domain-specific language (DSL) for pulse
+    scheduling with native real-time control constructs (e.g., feedback, branching,
+    and pulse updates).
+    The DSL compiles to and executes on radio-frequency system-on-chips, enabling
+    deterministic timing and hardware portability. To validate behaviors across the
+    stack, we provide an emulator that co-simulates control hardware and quantum
+    device responses. Together, the DSL, compiler, and emulator form a cohesive
+    framework that lowers the barrier to implementing robust control, accelerates
+    architectural design, and supports the development and testing of applications
+    like quantum error correcting codes.
+  links:
+    - label: paper
+      url: https://popl26.sigplan.org/details/planqc-2026-papers/14/A-Pulse-Level-DSL-for-Real-Time-Quantum-Control-with-Hardware-Compilation-and-Emulati
+  authors: >-
+    Yu-Hsuan Wu, Yue Shi, Junyi Liu, <u>Yuxiang Peng</u>
+  venue: >-
+    In *The Sixth International Workshop on Programming Languages for Quantum Computing (PLanQC 2026)*
+
+- title: Quantum-Inspired Hamiltonian Descent for Mixed-Integer Quadratic Programming
+  show: true
+  abstract: |-
+    Large-scale non-convex optimization problems, often involving mixed-integer
+    variables, arise naturally in domains such as finance and medical imaging.
+    Conventional CPU-based solvers rely on sequential decision-making, which limits
+    their ability to leverage modern hardware accelerators like GPUs. Motivated by
+    recent advances in quantum optimization, particularly Quantum Hamiltonian Descent
+    (QHD), we introduce Quantum-Inspired Hamiltonian Descent (QIHD), a family of
+    algorithms designed for efficient large-scale optimization on GPU clusters. QIHD
+    reformulates optimization tasks as classical dynamical systems and exploits
+    massively parallel GPU simulations to accelerate computation. Despite being
+    classical, QIHD inherits distinctive QHD-like properties—such as tunneling—and
+    demonstrates similar empirical behavior. We provide a scalable GPU implementation
+    in JAX for mixed-integer quadratic programming (MIQP) problems, capable of
+    handling millions of nonzero elements within seconds. Extensive benchmarks on
+    large-scale MIQP problems show that QIHD consistently outperforms the
+    state-of-the-art CPU-based solver Gurobi when time budgets are limited,
+    highlighting its potential as a practical and scalable optimization framework.
+  links:
+    - label: paper
+      url: https://openreview.net/pdf?id=9Z1zh7Fvvz
+    - label: code
+      url: https://github.com/PhysOpt/QiHD
+  authors: >-
+    Shreya Chaudhary, Jinglei Cheng, Samuel Kushnir, Jiaqi Leng, Pengyu Liu, <u>Yuxiang Peng</u>, Hanrui Wang, Xiaodi Wu
+  venue: >-
+    In *NeurIPS Workshop on GPU-Accelerated and Scalable Optimization (ScaleOpt)*, 2025
+
+- title: Quantum Hamiltonian Descent for Non-smooth Optimization
+  show: true
+  abstract: |-
+    Non-smooth optimization models play a fundamental role in various disciplines,
+    including engineering, science, management, and finance. However, classical
+    algorithms for solving such models often struggle with convergence speed,
+    scalability, and parameter tuning, particularly in high-dimensional and
+    non-convex settings. In this paper, we explore how quantum mechanics can be
+    leveraged to overcome these limitations.
+    Specifically, we investigate the theoretical properties of the Quantum
+    Hamiltonian Descent (QHD) algorithm for non-smooth optimization in both continuous
+    and discrete time. First, we propose continuous-time variants of the general QHD
+    algorithm and establish their global convergence and convergence rate for
+    non-smooth convex and strongly convex problems through a novel Lyapunov function
+    design.
+    Furthermore, we prove the finite-time global convergence of continuous-time QHD
+    for non-smooth non-convex problems under mild conditions (i.e., locally
+    Lipschitz). In addition, we propose discrete-time QHD, a fully digitized
+    implementation of QHD via operator splitting (i.e., product formula). We find
+    that discrete-time QHD exhibits similar convergence properties even with large
+    time steps.
+    Finally, numerical experiments validate our theoretical findings and demonstrate
+    the computational advantages of QHD over classical non-smooth non-convex
+    optimization algorithms.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2503.15878
+  authors: >-
+    Jiaqi Leng, Yufan Zheng, Zhiyuan Jia, Lei Fan, Chaoyue Zhao, <u>Yuxiang Peng</u>, Xiaodi Wu
+  venue: Manuscript, 2025.
+
+- title: "QHDOPT: A Software for Nonlinear Optimization with Quantum Hamiltonian Descent"
+  show: true
+  abstract: |-
+    We develop an open-source, end-to-end software (named QHDOPT), which can solve
+    nonlinear optimization problems using the quantum Hamiltonian descent (QHD)
+    algorithm. QHDOPT offers an accessible interface and automatically maps tasks to
+    various supported quantum backends (i.e., quantum hardware machines).
+    These features enable users, even those without prior knowledge or experience in
+    quantum computing, to utilize the power of existing quantum devices for nonlinear
+    and nonconvex optimization tasks. In its intermediate compilation layer, QHDOPT
+    employs SimuQ, an efficient interface for Hamiltonian-oriented programming, to
+    facilitate multiple algorithmic specifications and ensure compatible
+    cross-hardware deployment. The detailed documentation of QHDOPT is available at
+    https://github.com/jiaqileng/QHDOPT.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2409.03121
+    - label: code
+      url: https://github.com/jiaqileng/QHDOPT
+  authors: >-
+    Samuel Kushnir, Jiaqi Leng, <u>Yuxiang Peng</u>, Lei Fan, Xiaodi Wu
+  venue: >-
+    In *INFORMS Journal on Computing, 37(1): 107-124, 2025*.
+
+- title: Expanding Hardware-Efficiently Manipulable Hilbert Space via Hamiltonian Embedding
+  show: true
+  abstract: |-
+    Many promising quantum applications depend on the efficient quantum simulation of
+    an exponentially large sparse Hamiltonian, a task known as sparse Hamiltonian
+    simulation, which is fundamentally important in quantum computation. Although
+    several theoretically appealing quantum algorithms have been proposed for this
+    task, they typically require a black-box query model of the sparse Hamiltonian,
+    rendering them impractical for near-term implementation on quantum devices.
+
+    In this paper, we propose a technique named Hamiltonian embedding. This technique
+    simulates a desired sparse Hamiltonian by embedding it into the evolution of a
+    larger and more structured quantum system, allowing for more efficient simulation
+    through hardware-efficient operations. We conduct a systematic study of this new
+    technique and demonstrate significant savings in computational resources for
+    implementing prominent quantum applications.
+    As a result, we can now experimentally realize quantum walks on complicated graphs
+    (e.g., binary trees, glued-tree graphs), quantum spatial search, and the simulation
+    of real-space Schrödinger equations on current trapped-ion and neutral-atom
+    platforms. Given the fundamental role of Hamiltonian evolution in the design of
+    quantum algorithms, our technique markedly expands the horizon of implementable
+    quantum advantages in the NISQ era.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2401.08550
+    - label: code
+      url: https://github.com/jiaqileng/hamiltonian-embedding
+  authors: >-
+    Jiaqi Leng\*, Joseph Li\*, <u>Yuxiang Peng</u>, Xiaodi Wu
+  venue: >-
+    In *Quantum, 9:1857, 2025*.
+
+- title: "SimuQ: A Framework for Programming Quantum Hamiltonian Simulation with Analog Compilation"
+  show: true
+  featured: true
+  featured_order: 1
+  abstract: |-
+    Quantum Hamiltonian simulation, which simulates the evolution of quantum systems
+    and probes quantum phenomena, is one of the most promising applications of quantum
+    computing. Recent experimental results suggest that Hamiltonian-oriented analog
+    quantum simulation would be advantageous over circuit-oriented digital quantum
+    simulation in the Noisy Intermediate-Scale Quantum (NISQ) machine era.
+    However, programming analog quantum simulators is much more challenging due to the
+    lack of a unified interface between hardware and software. In this paper, we
+    design and implement SimuQ, the first framework for quantum Hamiltonian simulation
+    that supports Hamiltonian programming and pulse-level compilation to heterogeneous
+    analog quantum simulators.
+    Specifically, in SimuQ, front-end users specify the target quantum system with
+    Hamiltonian Modeling Language, and the Hamiltonian-level programmability of analog
+    quantum simulators is specified through a new abstraction called the abstract
+    analog instruction set (AAIS) and programmed in AAIS Specification Language by
+    hardware providers.
+    Through a solver-based compilation, SimuQ generates executable pulse schedules for
+    real devices to simulate the evolution of desired quantum systems, which is
+    demonstrated on superconducting (IBM), neutral-atom (QuEra), and trapped-ion
+    (IonQ) quantum devices.
+    Moreover, we demonstrate the advantages of exposing the Hamiltonian-level
+    programmability of devices with native operations or interaction-based gates and
+    establish a small benchmark of quantum simulation to evaluate SimuQ's compiler
+    with the above analog quantum simulators.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2303.02775
+    - label: website
+      url: https://pickspeng.github.io/SimuQ
+    - label: code
+      url: https://github.com/PicksPeng/SimuQ
+  authors: >-
+    <u>Yuxiang Peng</u>, Jacob Young, Pengyu Liu, Xiaodi Wu
+  venue: >-
+    In *Proceedings of the ACM on Programming Languages, 8 (POPL), 2425-2455, 2024*.
+
+- title: A Case for Synthesis of Recursive Quantum Unitary Programs
+  show: true
+  abstract: |-
+    Quantum programs are notoriously difficult to code and verify due to unintuitive
+    quantum knowledge associated with quantum programming. Automated tools relieving
+    the tedium and errors associated with low-level quantum details would hence be
+    highly desirable. In this paper, we initiate the study of program synthesis for
+    quantum unitary programs that recursively define a family of unitary circuits for
+    different input sizes, which are widely used in existing quantum programming
+    languages.
+    Specifically, we present QSynth, the first quantum program synthesis framework,
+    including a new inductive quantum programming language, its specification, a sound
+    logic for reasoning, and an encoding of the reasoning procedure into SMT
+    instances.
+    By leveraging existing SMT solvers, QSynth successfully synthesizes ten quantum
+    unitary programs including quantum adder circuits, quantum eigenvalue inversion
+    circuits and Quantum Fourier Transformation, which can be readily transpiled to
+    executable programs on major quantum platforms, e.g., Q#, IBM Qiskit, and AWS
+    Braket.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2311.11503
+    - label: code
+      url: https://github.com/sqrta/QSynth
+  authors: >-
+    Haowei Deng\*, Runzhou Tao\*, <u>Yuxiang Peng</u>, Xiaodi Wu
+  venue: >-
+    In *Proceedings of the ACM on Programming Languages, 8 (POPL), 1759-1788, 2024*.
+
+- title: Differentiable Analog Quantum Computing for Optimization and Control
+  show: true
+  abstract: |-
+    We formulate the first differentiable analog quantum computing framework with a
+    specific parameterization design at the analog signal (pulse) level to better
+    exploit near-term quantum devices via variational methods. We further propose a
+    scalable approach to estimate the gradients of quantum dynamics using a forward
+    pass with Monte Carlo sampling, which leads to a quantum stochastic gradient
+    descent algorithm for scalable gradient-based training in our framework.
+    Applying our framework to quantum optimization and control, we observe a
+    significant advantage of differentiable analog quantum computing against SOTAs
+    based on parameterized digital quantum circuits by orders of magnitude.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2210.15812
+    - label: code
+      url: https://github.com/YilingQiao/diffquantum
+  authors: >-
+    Jiaqi Leng\*, <u>Yuxiang Peng</u>\*, Yi-Ling Qiao\*, Ming Lin, Xiaodi Wu
+  venue: >-
+    In *the 36th Conference on Neural Information Processing Systems (NeurIPS 2022)*.
+
+- title: A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm
+  show: true
+  featured: true
+  featured_order: 2
+  abstract: |-
+    Quantum computing technology may soon deliver revolutionary improvements in
+    algorithmic performance, but these are only useful if computed answers are
+    correct. While hardware-level decoherence errors have garnered significant
+    attention, a less recognized obstacle to correctness is that of human programming
+    errors -- "bugs".
+    Techniques familiar to most programmers from the classical domain for avoiding,
+    discovering, and diagnosing bugs do not easily transfer, at scale, to the quantum
+    domain because of its unique characteristics. To address this problem, we have
+    been working to adapt formal methods to quantum programming. With such methods, a
+    programmer writes a mathematical specification alongside their program, and
+    semi-automatically proves the program correct with respect to it.
+    The proof's validity is automatically confirmed -- certified -- by a "proof
+    assistant". Formal methods have successfully yielded high-assurance classical
+    software artifacts, and the underlying technology has produced certified proofs
+    of major mathematical theorems.
+    As a demonstration of the feasibility of applying formal methods to quantum
+    programming, we present the first formally certified end-to-end implementation of
+    Shor's prime factorization algorithm, developed as part of a novel framework for
+    applying the certified approach to general applications. By leveraging our
+    framework, one can significantly reduce the effects of human errors and obtain a
+    high-assurance implementation of large-scale quantum applications in a principled
+    way.
+  links:
+    - label: paper
+      url: https://www.pnas.org/doi/10.1073/pnas.2218775120
+    - label: code
+      url: https://github.com/inQWIRE/SQIR/tree/main/examples/shor
+  authors: >-
+    <u>Yuxiang Peng</u>, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand, Michael Hicks, Xiaodi Wu
+  venue: >-
+    In *the Proceedings of the National Academy of Sciences (PNAS) 120 (21) e2218775120, 2023*.
+
+- title: Verified Compilation of Quantum Oracles
+  show: true
+  abstract: |-
+    Quantum algorithms often apply classical operations, such as arithmetic or
+    predicate checks, over a quantum superposition of classical data; these so-called
+    oracles are often the largest components of a quantum program. To ease the
+    construction of efficient, correct oracle functions, this paper presents VQO, a
+    high-assurance framework implemented with the Coq proof assistant. The core of VQO
+    is OQASM, the oracle quantum assembly language.
+    OQASM operations move qubits between two different bases via the quantum Fourier
+    transform, thus admitting important optimizations, but without inducing
+    entanglement and the exponential blowup that comes with it.
+    OQASM's design enabled us to prove correct VQO's compilers -- from a simple
+    imperative language called OQIMP to OQASM, and from OQASM to SQIR, a general-purpose
+    quantum assembly language -- and allowed us to efficiently test properties of
+    OQASM programs using the QuickChick property-based testing framework. We have used
+    VQO to implement a variety of arithmetic and geometric operators that are building
+    blocks for important oracles, including those used in Shor's and Grover's
+    algorithms.
+    We found that VQO's QFT-based arithmetic oracles require fewer qubits, sometimes
+    substantially fewer, than those constructed using "classical" gates; VQO's
+    versions of the latter were nevertheless on par with or better than (in terms of
+    both qubit and gate counts) oracles produced by Quipper, a state-of-the-art but
+    unverified quantum programming platform.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2112.06700
+    - label: code
+      url: https://github.com/inQWIRE/VQO
+  authors: >-
+    Liyi Li, Finn Voichick, Kesha Hietala, <u>Yuxiang Peng</u>, Xiaodi Wu, Michael Hicks
+  venue: >-
+    In *Object-Oriented Programming, Systems, Languages & Applications (OOPSLA), 2022*.
+
+- title: Automating NISQ Application Design with Meta Quantum Circuits with Constraints (MQCC)
+  show: true
+  abstract: |-
+    Near-term intermediate scale quantum (NISQ) computers are likely to have very
+    restricted hardware resources, where precisely controllable qubits are expensive,
+    error-prone, and scarce. Programmers of such computers must therefore balance
+    trade-offs among a large number of (potentially heterogeneous) factors specific to
+    the targeted application and quantum hardware. To assist them, we propose Meta
+    Quantum Circuits with Constraints (MQCC), a meta-programming framework for quantum
+    programs.
+    Programmers express their application as a succinct collection of normal quantum
+    circuits stitched together by a set of (manually or automatically) added
+    meta-level choice variables, whose values are constrained according to a
+    programmable set of quantitative optimization criteria. MQCC’s compiler generates
+    the appropriate constraints and solves them via an SMT solver, producing an
+    optimized, runnable program.
+    We showcase a few MQCC’s applications for its generality including an automatic
+    generation of efficient error syndrome extraction schemes for fault-tolerant
+    quantum error correction with heterogeneous qubits and an approach to writing
+    approximate quantum Fourier transformation and quantum phase estimation that
+    smoothly trades off accuracy and resource use.
+    We also illustrate that MQCC can easily encode prior one-off NISQ application
+    designs-–multi-programming (MP), crosstalk mitigation (CM)—as well as a combination
+    of their optimization goals (i.e., a combined MP-CM).
+  links:
+    - label: paper
+      url: https://dl.acm.org/doi/10.1145/3579369
+    - label: code
+      url: https://github.com/sqrta/MQCC
+  authors: >-
+    Haowei Deng, <u>Yuxiang Peng</u>, Michael Hicks, Xiaodi Wu
+  venue: >-
+    In *ACM Transactions on Quantum Computing (TQC), Volume 4, Issue 3, 2023*.
+
+- title: Algebraic Reasoning of Quantum Programs via Non-idempotent Kleene Algebra
+  show: true
+  abstract: |-
+    We investigate the algebraic reasoning of quantum programs inspired by the success
+    of classical program analysis based on Kleene algebra. One prominent example of
+    such is the famous Kleene Algebra with Tests (KAT), which has furnished both
+    theoretical insights and practical tools. The succinctness of algebraic reasoning
+    would be especially desirable for scalable analysis of quantum programs, given
+    the involvement of exponential-size matrices in most of the existing methods.
+    A few key features of KAT including the idempotent law and the nice properties of
+    classical tests, however, fail to hold in the context of quantum programs due to
+    their unique quantum features, especially in branching. We propose Non-idempotent
+    Kleene Algebra (NKA) as a natural alternative and identify complete and sound
+    semantic models for NKA as well as their quantum interpretations.
+    In light of applications of KAT, we demonstrate algebraic proofs in NKA of quantum
+    compiler optimization and the normal form of quantum while-programs. Moreover, we
+    extend NKA with Tests (i.e., NKAT), where tests model quantum predicates following
+    effect algebra, and illustrate how to encode propositional quantum Hoare logic as
+    NKAT theorems.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2110.07018
+  authors: >-
+    <u>Yuxiang Peng</u>, Mingsheng Ying, Xiaodi Wu
+  venue: >-
+    In *Proceedings of the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)*.
+
+- title: Experimental Realization of Device-Independent Quantum Randomness Expansion
+  show: true
+  abstract: |-
+    Randomness expansion where one generates a longer sequence of random numbers from
+    a short one is viable in quantum mechanics but not allowed classically.
+    Device-independent quantum randomness expansion provides a randomness resource of
+    the highest security level. Here, we report the first experimental realization of
+    device-independent quantum randomness expansion secure against quantum side
+    information established through quantum probability estimation.
+    We generate $5.47\times10^8$ quantum-proof random bits while consuming
+    $4.39\times10^8$ bits of entropy, expanding our store of randomness by
+    $1.08\times10^8$ bits at a latency of about $13.1$ h, with a total soundness error
+    $4.6\times10^{-10}$. Device-independent quantum randomness expansion not only
+    enriches our understanding of randomness but also sets a solid base to bring
+    quantum-certifiable random bits into realistic applications.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/1902.07529
+  authors: >-
+    Ming-Han Li, Xingjian Zhang, Wen-Zhao Liu, Si-Ran Zhao, Bing Bai, Yang Liu, Qi Zhao, <u>Yuxiang Peng</u>, Jun Zhang, Yanbao Zhang, William J. Munro, Xiongfeng Ma, Qiang Zhang, Jingyun Fan, Jian-Wei Pan
+  venue: >-
+    In *Physical Review Letters 126.5 (2021): 050503*.
+
+- title: On the Theory and Practice of Invariant-based Verification of Quantum Programs
+  show: true
+  authors: >-
+    Shih-Han Hung, <u>Yuxiang Peng</u>, Xin Wang, Shaopeng Zhu, Xiaodi Wu
+  venue: Manuscript, 2019.
+
+- title: Cascaded Pyramid Network for Multi-Person Pose Estimation
+  show: true
+  abstract: |-
+    The topic of multi-person pose estimation has been largely improved recently,
+    especially with the development of convolutional neural network. However, there
+    still exist a lot of challenging cases, such as occluded keypoints, invisible
+    keypoints and complex background, which cannot be well addressed. In this paper,
+    we present a novel network structure called Cascaded Pyramid Network (CPN) which
+    targets to relieve the problem from these “hard” keypoints. More specifically, our
+    algorithm includes two stages: GlobalNet and RefineNet. GlobalNet is a feature
+    pyramid network which can successfully localize the “simple” keypoints like eyes
+    and hands but may fail to precisely recognize the occluded or invisible keypoints.
+    Our RefineNet tries explicitly handling the “hard” keypoints by integrating all
+    levels of feature representations from the GlobalNet together with an online hard
+    keypoint mining loss. In general, to address the multi-person pose estimation
+    problem, a top-down pipeline is adopted to first generate a set of human bounding
+    boxes based on a detector, followed by our CPN for keypoint localization in each
+    human bounding box. Based on the proposed algorithm, we achieve state-of-art
+    results on the COCO keypoint benchmark, with average precision at 73.0 on the COCO
+    test-dev dataset and 72.1 on the COCO test-challenge dataset, which is a 19%
+    relative improvement compared with 60.5 from the COCO 2016 keypoint challenge.
+    Code and the detection results for person used will be publicly available for
+    further research.
+  links:
+    - label: paper
+      url: https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Cascaded_Pyramid_Network_CVPR_2018_paper.pdf
+    - label: code
+      url: https://github.com/chenyilun95/tf-cpn
+  authors: >-
+    Yilun Chen\*, Zhicheng Wang\*, <u>Yuxiang Peng</u>, Zhiqiang Zhang, Gang Yu, Jian Sun
+  venue: >-
+    In *Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR), 2018*.
