@@ -9,9 +9,25 @@ author_profile: true
 
 \*: equal contribution
 
-* **Quantum-Inspired Hamiltonian Descent for Mixed-Integer Quadratic Programming**
+* **Analog Quantum Experiments Meet Automatic Differentiation - from Programs to Atoms**
+	* Yue Shi, Pengyu Liu, <u>Yuxiang Peng</u>
+	* Manuscript, 2026
+
+* **Stateful Governance for Concurrent Agentic Systems** [(website)](https://masugate.github.io/) [(paper)](https://arxiv.org/abs/2608.02764) [(code)](https://github.com/masugate/masugate)
+	* <u>Yuxiang Peng</u>, Xiaodi Wu
+	* Manuscript, 2026
+
+* **Formal Guarantees of Reference-based Mathematical Statement Autoformalization Evaluation**
+	* Yi Yu, Yu-Hsuan Wu, Guang Lin, Yuhui Zhang, <u>Yuxiang Peng</u>
+	* Manuscript, 2026
+
+* **A Pulse-Level DSL for Real-Time Quantum Control with Hardware Compilation and Emulation (Extended Abstract)** [(paper)](https://popl26.sigplan.org/details/planqc-2026-papers/14/)
+	* Yu-Hsuan Wu, Yue Shi, Junyi Liu, <u>Yuxiang Peng</u>
+	* In *The Sixth International Workshop on Programming Languages for Quantum Computing (PLanQC 2026)*
+
+* **Quantum-Inspired Hamiltonian Descent for Mixed-Integer Quadratic Programming** [(paper)](https://openreview.net/pdf?id=9Z1zh7Fvvz) [(code)](https://github.com/PhysOpt/QiHD)
 	* Shreya Chaudhary, Jinglei Cheng, Samuel Kushnir, Jiaqi Leng, Pengyu Liu, <u>Yuxiang Peng</u>, Hanrui Wang, Xiaodi Wu
-	* Manuscript, 2025
+	* In *NeurIPS Workshop on GPU-Accelerated and Scalable Optimization (ScaleOpt)*, 2025
 
 * **Quantum Hamiltonian Descent for Non-smooth Optimization** [(paper)](https://arxiv.org/abs/2503.15878)
 	* Jiaqi Leng, Yufan Zheng, Zhiyuan Jia, Lei Fan, Chaoyue Zhao, <u>Yuxiang Peng</u>, Xiaodi Wu

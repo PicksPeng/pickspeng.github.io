@@ -1,22 +1,23 @@
 {
-  "name": "minimal-mistakes",
-  "version": "3.4.2",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "name": "pickspeng.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build scripts for Yuxiang Peng's academic website",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "https://github.com/PicksPeng/pickspeng.github.io.git"
   },
   "keywords": [
     "jekyll",
     "theme",
     "minimal"
   ],
-  "author": "Michael Rose",
+  "author": "Yuxiang Peng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/PicksPeng/pickspeng.github.io/issues"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://pickspeng.github.io/",
   "engines": {
     "node": ">= 0.10.0"
   },
