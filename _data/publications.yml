@@ -5,14 +5,43 @@
 
 - title: Analog Quantum Experiments Meet Automatic Differentiation - from Programs to Atoms
   show: true
+  featured: true
+  featured_order: 3
+  abstract: |-
+    Gradient-based optimization of analog quantum hardware poses a concrete programming
+    problem: given an executable experiment P(\theta) that returns only measurement
+    samples, what executable experiment should the system run to obtain
+    (d/d\theta_ell)P(\theta)? Conventional automatic differentiation cannot propagate
+    through the inaccessible quantum state, while finite differences require a
+    noise-sensitive step size and analytic gradient identities cover only parts of
+    an experiment. We present DiffSimuQ, which shows that a broad class of open-loop
+    analog quantum experiments is closed under automatic differentiation. A
+    compositional transformation maps P(\theta) to a derivative program
+    D_ell[P(\theta)] in the same language whose expected outcome is exactly the
+    derivative. Only continuous evolution requires a strategy-specific rule, and we
+    give two realizations. Our Nyquist shift rule (NSR) applies to general
+    time-dependent evolution: we prove that the observable response to shifting the
+    Hamiltonian along its tangent is band-limited even for non-commuting controls,
+    enabling exact reconstruction from shifted executions. For involutory generators,
+    a parameter-shift realization (PSR) inserts a parameter-independent operation at
+    a sampled time. Because derivative programs remain ordinary programs, source and
+    derivative experiments share one compiler, which reuses the source realization,
+    lowers branches to device-ready neutral-atom controls, and selects between NSR
+    and PSR based on estimated cost. Under device noise, the exact derivative
+    programs differentiate the objective realized by the device, with hardware
+    realization errors treated separately. In machine-level noisy emulation, NSR and
+    PSR avoid the finite-difference error floor and improve closed-loop optimization;
+    they win in complementary cost regimes, while each derivative branch at 1000
+    qubits add at most 0.3% to source compilation time.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2610.36167
   authors: >-
     Yue Shi, Pengyu Liu, <u>Yuxiang Peng</u>
   venue: Manuscript, 2026
 
 - title: Stateful Governance for Concurrent Agentic Systems
   show: true
-  featured: true
-  featured_order: 3
   abstract: |-
     AI agents are moving from advisory interfaces into systems that execute
     consequential operations: issuing refunds, reserving scarce inventory,
@@ -52,8 +81,33 @@
     <u>Yuxiang Peng</u>, Xiaodi Wu
   venue: Manuscript, 2026
 
-- title: Formal Guarantees of Reference-based Mathematical Statement Autoformalization Evaluation
-  show: false
+- title: Structure-Aware Equivalence for Evaluating Autoformalized Statements
+  show: true
+  abstract: |-
+    Evaluating autoformalized mathematical statements requires determining whether a
+    candidate preserves the mathematical claim intended by a trusted reference.
+    Existing methods approach this problem from complementary directions:
+    reference-free learned evaluators estimate semantic agreement but are not
+    constrained to a formal equivalence relation, while reference-based proof methods
+    typically employ whole-statement logical equivalence to provide formal
+    certificates, which is too coarse for translation fidelity and may identify
+    mathematically unrelated statements.
+
+    We introduce Structure-Aware Equivalence (SAE), a role-preserving formal
+    equivalence relation between syntactic and whole-statement logical equivalence
+    that allows formally justified reformulations while preserving
+    translation-relevant mathematical structure. We operationalize SAE in the
+    Autoformalization Correctness Evaluator (ACE), which provides certified
+    equivalence or inequivalence judgments and reports Inconclusive otherwise.
+    On ProofNetVerif, a benchmark introduced with BEq+, ACE retains substantial
+    equivalent-case coverage while remaining highly conservative in certifying
+    disputed or inequivalent pairs. On targeted diagnostics, BEq+ accepts 94-96% of
+    unrelated but whole-statement logically equivalent pairs, while Mathesis
+    LeanScorer accepts 42% of localized meaning-changing perturbations; ACE accepts
+    none of either set as equivalent.
+  links:
+    - label: paper
+      url: https://arxiv.org/abs/2610.25018
   authors: >-
     Yi Yu, Yu-Hsuan Wu, Guang Lin, Yuhui Zhang, <u>Yuxiang Peng</u>
   venue: Manuscript, 2026

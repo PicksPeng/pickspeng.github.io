@@ -46,6 +46,6 @@ In 2019, I received a Bachelor of Engineering from the [Institute for Interdisci
 
 ## **News**
 
-* [10/2025] An animation film that I participated in, [The Shyness of Trees](https://www.youtube.com/watch?v=aiQC-8E_7lE), received a Student Academy Award, bronze medal for animation.
+* [1/2026] An animation film that I participated in, [The Shyness of Trees](https://www.youtube.com/watch?v=aiQC-8E_7lE), was *shortlisted* on the 98th Academy Awards Best Animated Short Film, and won the Bronze Medal in the Animation category at the 52nd Student Academy Awards
 
 {% seo %}
