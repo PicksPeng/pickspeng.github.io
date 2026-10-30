@@ -6,7 +6,7 @@
 - title: Analog Quantum Experiments Meet Automatic Differentiation - from Programs to Atoms
   show: true
   featured: true
-  featured_order: 3
+  featured_order: 1
   abstract: |-
     Gradient-based optimization of analog quantum hardware poses a concrete programming
     problem: given an executable experiment P(\theta) that returns only measurement
@@ -256,7 +256,7 @@
 - title: "SimuQ: A Framework for Programming Quantum Hamiltonian Simulation with Analog Compilation"
   show: true
   featured: true
-  featured_order: 1
+  featured_order: 2
   abstract: |-
     Quantum Hamiltonian simulation, which simulates the evolution of quantum systems
     and probes quantum phenomena, is one of the most promising applications of quantum
@@ -347,7 +347,7 @@
 - title: A Formally Certified End-to-End Implementation of Shor’s Factorization Algorithm
   show: true
   featured: true
-  featured_order: 2
+  featured_order: 3
   abstract: |-
     Quantum computing technology may soon deliver revolutionary improvements in
     algorithmic performance, but these are only useful if computed answers are
